@@ -1,0 +1,291 @@
+package com.Locaters;
+
+public class TraacsRefundElements {
+
+	public static String ClickNewInRefundPage="//button[@id='btnNewRefund']";
+	public static String ClickSaveInRefundPage="//button[@id='btnSaveRefund']";
+	public static String ClickPostInRefundPage="//input[@id='idShowViewPosting']";
+	public static String ClickDeleteInRefundPage="//button[text()='Delete']";
+	public static String ClickAttachmentInRefundPage="//li[@id='attachRefund']/a[1]/input[1]";
+	public static String ClickPrintInRefundPAge="//button[text()='Print']";
+	public static String ClickSettlementInRefundPAge="//button[text()='Settlement']";
+	public static String ClickUpdateInRefundPAge="//button[text()='Update']";
+
+	public static String ClickMasterTabInRefundPage="//ul[@id='mainTabRefund']/li[1]/a";
+	public static String ClickTicketTabInRefundPage="//ul[@id='mainTabRefund']/li[2]/a";
+	public static String ClickHotelCarInRefundPage="//ul[@id='mainTabRefund']/li[3]/a";
+	public static String ClickServiceInRefundPage="//ul[@id='mainTabRefund']/li[4]/a";
+	public static String ClickAPEntriesInRefundPage="//ul[@id='mainTabRefund']/li[5]/a";
+
+	public static String EnterInvoiceNoInLoadfield="//input[@id='txtLinkedInvoice']";
+	public static String ClickLoadInRefund="//a[text()='Load']";
+	public static String ClickEditButtonInRefundGrid="//table[@id='tblRefundSummary']/tbody[1]/tr[1]/td[8]/a";
+	public static String ClickEditButtonInModeOFRefundGrid="//table[@id='tblModeOfRefundSummary']/tbody/tr[1]/td[7]/a[1]";
+	public static String RefundSavedMessage="//article[@id='refundadd']/div[1]";
+	public static String RefundDeleteMessage="//article[@id='refundadd']/div[1]";
+	public static String RefundUpdateMEssage="//div[text()='Refund has been updated']";
+	
+	//Master Tab
+	public static String EnterRefundDocumentNoInMasterTab="//input[@id='txtRefundDocNo']";
+	public static String EnterRefundCustomerNameInRefundTab="//input[@id='txtCustomerName']";
+	public static String OriginalAmountInRefundPage="//span[@id='spnRfdOriginalAmount']/a[1]";
+	public static String SelectCostCentreInRefundPage="//select[@id='cmbRefundCostCentre']";
+	public static String FileNumberInTicketRefundPage="//input[@id='txtRefundMasterFileNumber']"; 
+	//Ticket Tab
+	public static String TaxDetailsInTicketRefund="//input[@id='txtRfdTicketFareTaxDetails']";
+	public static String StdPercentageInTicketRefund="//input[@id='txtRfdTicketFareSTDCommissionTransPercentage']";
+	public static String AirlineChargeSecInTicketRefund="//input[@id='txtRfdTicketFareSupplierChargeInTransCreditSplit']";
+	public static String ServiceFeePercentageInTicketRefund="//input[@id='txtRfdTicketFareServiceFeeInTransPercentage']";
+	public static String ExtraEarningPercentageInTicketRefund="//input[@id='txtRfdTicketFareExtraEarningInTransPercentage']";
+	public static String PaybackAmtPercentageInTicketRefund="//input[@id='txtRfdTicketFarePayBackAmountInTransPercentage']";
+	public static String CCChargePercentageInTicketRefund="//input[@id='txtRfdTicketFareCCChargesPersentageInTrans']";
+	public static String DiscountPercentageInTicketRefund="//input[@id='txtRfdTicketFareDiscountInTransPercentage']";
+	public static String MarketFareSplitInTicketRefund="//input[@id='txtRfdTicketFareFareCreditCardTransSplit']";
+	public static String GeneralTAbInTicketRefund="//div[@id='tabTicket']/ul[1]/li[1]/a[1]";
+	public static String ROEInTicketRefund="//input[@id='txtRfdTicketFareROE']" ;
+	public static String EnterPNRNumberInTicketRefund="//input[@id='txtRfdTicketGeneralPNRNo']";
+	public static String EnterRemarksInTicketRefund="//input[@id='txtRfndTktGenRemarks']";
+	public static String EnterTicketNumberInRefundPage="//input[@id='txtRfndTktGenTicketNumber']";
+	public static String EnterAirlineNameInRefundPage="//input[@id='txtRfndTktGenAirlineName']";
+	public static String EnterSupplierInTicketRefundPage="//input[@id='txtRfndTktGenSupplierName']";
+	public static String EnterRefundDateInTicketRefundPage="//input[@id='txtRfndTktGenRefundDate']";
+	public static String ChooseTicketTypeInRefundPage="//select[@id='cmbRfndTktGenTicketType']";
+	public static String EnterPaxNameInTicketRefundPage="//input[@id='txtRfndTktGenPaxName']";
+	public static String EnterSectorInTicketRefundPage="//input[@id='txtRfndTktGenSector']";
+	public static String EnterClassInTicketRefundPage="//input[@id='txtRfndTktGenClass']";
+	public static String ClickStaffPlusButtonInTicketRefundPage="//a[@id='addRecieveButton123']";
+	public static String EnterRefundingStaffInTicketRefundPage="//input[@id='txtRfndTktStaffName']";
+	public static String EnterTicketingStaffInTicketRefundPage="//input[@id='txtInvTicketingStaffName']";
+	public static String ClickNextInTicketRefundPage="//button[@id='btnRfdTktGnrlNext']";
+	public static String ClickClearInTicketRefundPage="//a[@id='lnkClearTicket']";
+	public static String AirlineReferenceNoInTicketRefund="//input[@id='txtRfndTktGenPtaNumber']";
+	public static String AirlineCodeInTicketRefund="//input[@id='txtRfndTktGenAirlineNumericCode']";
+	public static String AirlineCharCodeInTicketRefund="//input[@id='txtRfndTktGenAirlineCharacterCode']";
+	public static String SupplierCodeInTicketRefund="//input[@id='txtRfndTktGenSupplierCode']";
+	public static String TravelIdInTicketRefund="//input[@id='txtRfndTktGenTravelerId']";
+	public static String LPONoinTicketRefund="//input[@id='txtRfndTktGenLPONumber']";
+	
+	public static String RefundStaffNumericCodeInTicketRefund="//input[@id='txtTicketStaffNumericCode']";
+	public static String RefundStaffCharCodeInTicketRefund="//input[@id='txtRfndTktGenBookingAgent']";
+	public static String BookingStaffNumericCodeInTicketRefund="//input[@id='txtInvBookingStaffNumeric']";
+	public static String BookingStaffCharCodeInTicketRefund="//input[@id='txtInvBookingStaffCharecter']";
+	public static String BookingStaffNameInTicketRefund="//input[@id='txtInvBookingStaffName']";
+	public static String TicketingStaffNumericCodeInTicketRefund="//input[@id='txtInvTicketingStaffNumeric']";
+	public static String TicketingStaffCharCodeInTicketRefund="//input[@id='txtInvTicketingStaffCharecter']";
+	
+	public static String EnterPublishedFareInTicketRefundPage="//input[@id='txtRfdTicketFarePublishedFareInTrans']";
+	public static String EnterMarketFareInTicketRefundPage="//input[@id='txtRfdTicketFareMarketFareCreditTrans']";
+	public static String EnterTaxInTicketRefundPage="//input[@id='txtRfdTicketFareTaxCreditInTrans']";
+	public static String TaxSplitInTicketRefundPage="//input[@id='txtRfdTicketFareTaxCreditCardInTransSplit']";
+	public static String EnterSTDCommissionInTicketRefundPage="//input[@id='txtRfdTicketFareSTDCommissionTrans']";
+	public static String SupplierNetInTicketRefundPage="//input[@id='txtTicketFareSupplierNetInTrans']";
+	public static String EnterAgencyChargeInTicketRefundPage="//input[@id='txtRfdTicketAgentChargeInTrans']";
+	public static String EnterPaybackAmtInTicketRefundPage="//input[@id='txtRfdTicketFarePayBackAmountInTrans']";
+	public static String PaybackAmountPercentage="//input[@id='txtRfdTicketFarePayBackAmountInTransPercentage']";
+	public static String EnterPaybackAccntNameInTicketRefundPage="//input[@id='txtRfdTicketFarePayBackAccountName']";
+	public static String ClickAddButtonInTicketRefundPage="//div[@id='tabTicket']/a[2]";
+	public static String EnterServiceFeeInTicketRefundPage="//input[@id='txtRfdTicketFareServiceFeeInTrans']";
+	public static String ClientNetInTicketRefundPage="//input[@id='txtRfdTicketFareClientNetInTrans']";
+	public static String FormErrorInTicketRefundPageFare="//div[@id='errFrmRfdTicketFare']/h4";
+	public static String FormErrorInTicketRefundPageGeneral="//div[@id='errFrmTicketGeneral']/h4";
+	public static String ClickEditButtonInTicketRefundingPage="//div[@id='tabTicket']/a[3]";
+	public static String SelectGDSInTicketRefundPage="//select[@id='cmbRfndTktGenGDS']";
+	public static String ConjTicketInTicketRefund="//input[@id='txtRfndTktGenConjTicket']";
+	public static String DiscountInTicketRefund="//input[@id='txtRfdTicketFareDiscountInTrans']";
+	public static String EnterExtraEarningInTicketRefund="//input[@id='txtRfdTicketFareExtraEarningInTrans']";
+	public static String EnterAirlineChargeInTicketRefund="//input[@id='txtRfdTicketFareSupplierChargeInTransCash']";
+	public static String EnterServiceFeeInTicketRefund="//input[@id='txtRfdTicketFareServiceFeeInTrans']";
+	public static String EnterCCChargeInTicketRefund="//input[@id='txtRfdTicketFareCCChargesInTrans']";
+	public static String PaybackAccountCodeInTicketRefund="//input[@id='txtRfdTicketFarePayBackAccountCode']";
+	public static String SelectGDSInTicketRefund="//select[@id='cmbRfndTktGenGDS']";
+	public static String CorpCCCodeInTicketRefund="//input[@id='txtRfndTktGenCorpCardCode']";
+	public static String CorpCCInTicketRefund="//input[@id='txtRfndTktGenCorpCardName']";
+	
+	public static String PublishedFareInTicketRefundBase="//input[@id='txtRfdTicketFarePublishedFareInBase']";
+	public static String MarketFareInTicketRefundBase="//input[@id='txtRfdTicketFareMarketFareCreditBase']";
+	public static String MarketFareInTicketRefundBaseSplit="//input[@id='txtRfdTicketFareMarketFareCreditCardBaseSplit']";
+	public static String TaxInTicketRefundPageBase="//input[@id='txtRfdTicketFareTaxCreditInBase']";
+	public static String TaxSplitInTicketRefundPageBase="//input[@id='txtRfdTicketFareTaxCreditCardInBaseSplit']";
+	public static String STDCommissionInTicketRefundPageBase="//input[@id='txtRfdTicketFareSTDCommissionBase']";
+	public static String STDCommissionPercentageInTicketRefundPageBase="//input[@id='txtRfdTicketFareSTDCommissionBasePercentage']";
+	public static String SupplierNetInTicketRefundPageBase="//input[@id='txtRfdTicketFareSupplierNetInBase']";
+	public static String AgencyChargeInTicketRefundPageBase="//input[@id='txtRfdTicketAgentChargeInBase']";
+	public static String PaybackAmtInTicketRefundPageBase="//input[@id='txtRfdTicketFarePayBackAmountInBase']";
+	public static String PaybackAmtPercentageInTicketRefundPageBase="//input[@id='txtRfdTicketFarePayBackAmountInBasePercentage']";
+	public static String ClientNetInTicketRefundBase="//input[@id='txtRfdTicketFareClientNetInBase']";
+	public static String DiscountInTicketRefundBase="//input[@id='txtRfdTicketFareDiscountInBase']";
+	public static String DiscountPercentageInTicketRefundBase="//input[@id='txtRfdTicketFareDiscountInBasePercentage']";
+	public static String ExtraEarningInTicketRefundBase="//input[@id='txtRfdTicketFareExtraEarningInBase']";
+	public static String ExtraEarningPercentageInTicketRefundBase="//input[@id='txtRfdTicketFareExtraEarningInBasePercentage']";
+	public static String AirlineChargeInTicketRefundBase="//input[@id='txtRfdTicketFareSupplierChargeInBaseCash']";
+	public static String AirlineChargeSplitInTicketRefundBase="//input[@id='txtRfdTicketFareSupplierChargeInBaseCreditSplit']";
+	public static String ServiceFeeInTicketRefundBase="//input[@id='txtRfdTicketFareServiceFeeInBase']";
+	public static String ServiceFeePercentageInTicketRefundBase="//input[@id='txtRfdTicketFareServiceFeeInBasePercentage']";
+	public static String CCChargeInTicketRefundBase="//input[@id='txtRfdTicketFareCCChargesInBase']";
+	public static String CCChargePercentageInTicketRefundBase="//input[@id='txtRfdTicketFareCCChargesPersentageInBase']";
+	//Hotel or Car Tab
+	public static String EnterVoucherNoinHotelCarRefundPage="//input[@id='txtHotelVoucherNoRfd']";
+	public static String EnterRefundDateInHotelCarRefundPage="//input[@id='txtRefundServiceDate']";
+	public static String SelectServiceInHotelCarRefundPage="//select[@id='cmbHotelCarMasterServiceRfd']";
+	public static String EnterSupplierInHotelCarRefundPage="//input[@id='txtSupplierAccountNameRfd']";
+	public static String EnterCountryInHotelCarRefundPage="//input[@id='txtHotelCountryRfd']";
+	public static String EnterCityInHotelCarRefundPage="//input[@id='txtHotelCityRfd']";
+	public static String EnterHotelNameInHotelRefundPage="//input[@id='txtHotelNameRfd']";
+	public static String EnterNoOfRoomInHotelRefundPage="//input[@id='txtRooms']";
+	public static String EnterNoOfNightsInHotelRefundPage="//input[@id='txtNights']";
+	public static String EnterGuestNameInHotelRefundPage="//input[@id='txtGuestName']";
+	public static String EnterRefundStaffNameInHotelCarRefundPage="//input[@id='txtAgent']";
+	public static String EnterIssuingStaffInHotelRefundPage="//input[@id='txtIssuingAgent']";
+	public static String BookingStaffInHotelRefund="//input[@id='txtBookAgent']";
+	public static String ChooseRoomTypeInHotelRefundPage="//select[@id='cmbHotelMasterRoomType']";
+	public static String ClickNextInHotelCarRefundPage="//button[@id='btnVocherRefundNextButton']";
+	public static String EnterRentalCompanyInCarRefundPage="//input[@id='txtRentalComapny']";
+	public static String EnterRentalCompanyCodeInCarRefundPage="//input[@id='txtRentalComapnyCode']";
+	public static String EnterNoOfCarsInCarRefundPage="//input[@id='txtCars']";
+	public static String EnterNoOfDaysInCarRefundPage="//input[@id='txtDays']";
+	public static String EnterPaxNameInCarRefundPage="//input[@id='txtGuestName']";
+	public static String EnterStaffNameInCarRefundPage="//input[@id='txtAgent']";
+	public static String EnterFareInHotelCarRefundPage="//input[@id='txtRfdTransFareCash']";
+	public static String FareSplitInHotelCarRefundPage="//input[@id='txtRfdTransFareCreditSplit']";
+	public static String EnterTaxInHotelCarRefundPage="//input[@id='txtRfdTransTaxCash']";
+	public static String TaxSplitInHotelCarRefundPage="//input[@id='txtRfdTransTaxCreditSplit']";
+	public static String EnterCommissionInHotelCarRefundPage="//input[@id='txtTransCommission']";
+	public static String CommissionPercentageInHotelCarRefund="//input[@id='txtTransCommissionPercentage']";
+	public static String SupplierNetInHotelCarRefundPage="//input[@id='txtHotelCarFareSupplierNetInTrans']";
+	
+	public static String EnterAgencyChargeInHotelCarRefundPage="//input[@id='txtTransClientCharge']";
+	public static String EnterPaybackAmtInHotelCarRefundPage="//input[@id='txtRfdHotelCarFarePayBackInTrans']";
+	public static String PaybackAmountPercentageInHotelCarRefund="//input[@id='txtRfdHotelCarFarePayBackInTransPercentage']";
+	public static String EnterPaybackAccntNameInHotelCarRefundPage="//input[@id='txtPayBackRfdName']";
+	public static String PaybackAccountCodeInHotelCarRefundPage="//input[@id='txtPayBackRfdCode']";
+	
+	public static String ClickClearInHotelCarRefundPage="//a[@id='lnkHotelCarRefundClear']";
+	public static String ClickAddButtonInHotelCarRefundPage="//div[@id='tabDivHotelCarRfd']/a[2]";
+	public static String ClientNetInHotelCarRefundPage="//input[@id='txtTransClientNet']";
+	public static String EnterServicefeeInHotelCarRefundPage="//input[@id='txtRfdHotelCarFareServiceFeeInTrans']";
+	public static String ServiceFeePercentageInHotelCarRefundPage="//input[@id='txtRfdHotelCarServiceFeeTranPercentage']";
+	public static String FormErrorInHotelCarRefundPage="//div[@id='errFrmHotelCarRefund']/h4";
+	
+	public static String ClickEditInHotelCarRefundPage="//div[@id='tabDivHotelCarRfd']/a[3]";
+	public static String EnterSupplierChargeInHotelCarRefundPage="//input[@id='txtRfdHotelCarFareSupplierChargeInTransCash']";
+	public static String SupplierChargePercentageInHotelCarRefundPage="//input[@id='txtRfdHotelCarFareSupplierChargeInTransCreditSplit']";
+	public static String EnterExtraEarningInHotelCarRefundPage="//input[@id='txtRfdHotelCarFareExtraEarningInTrans']";
+	public static String ExtraEarningPercentageInHotelCarRefundPage="//input[@id='txtRfdHotelCarExtraEarningInTransPercentage']";
+	
+	public static String EnterCCChargeInHotelCarRefundPage="//input[@id='txtCcChargeRfdTrans']";
+	public static String CCchargePercentageInHotelCarRefundPage="//input[@id='txtCcChargeRfdTransPercentage']";
+	public static String EnterDiscountInHotelCarRefundPage="//input[@id='txtDiscountTrans']";
+	public static String DiscountPercentageInHotelCarRefundPage="//input[@id='txtDiscountTransPercentage']";
+	public static String EnterOriginCountryInHotelVoucherRefund="//input[@id='txtHotelMasterOriginalCountryRfd']";
+	public static String EnterRemarksInHotelCarVoucherRefund="//input[@id='txtServiceRemarks']";
+	public static String SupplierCodeInHotelCarVoucherRefund="//input[@id='txtSupplierAccountCodeRfd']";
+	public static String CorpCCcodeInHotelVoucherCarRefund="//input[@id='txtServiceCorpCCCode']";
+	public static String CorpCCInHotelCarVoucherRefund="//input[@id='txtServiceCorpCC']";
+	public static String HotelCodeInHotelVoucherRefund="//input[@id='txtHotelCodeRfd']";
+	public static String TravelIdInHotelVoucherRefund="//input[@id='txtTravelerId']";
+	public static String SupplierConfNumberInHotelVoucherRefund="//input[@id='txtSuppConfNoRfd']";
+	public static String HotelConfNumberInHotelVoucherRefund="//input[@id='txtHotelConfirmation']";
+	public static String CarConfNumberInCarRefundPage="//input[@id='txtCarConfirmationRfd']";
+	public static String LPOInHotelCarVoucherRefund="//input[@id='txtLPONumber']";
+	public static String CommissionCollectorCodeInHotelVoucherRefund="//input[@id='txtCommissionCollectorCode']";
+	public static String CommissionCollectorInHotelVoucherRefund="//input[@id='txtCommissionCollector']";
+	public static String BookingDetailsInHotelCarVoucherRefund="//input[@id='txaBookingDetails']";
+	public static String GeneralTabInHotelCarRefund="//div[@id='tabDivHotelCarRfd']/ul[1]/li[1]/a[1]";
+	public static String ClientNetInCustomerCurrency="//input[@id='txtHotelFareSellingPriceInCustCur']";
+	public static String ClientNetInCustomerCurrencyAdj="//input[@id='txtHotelFareSellingPriceInCustCurAdj']";
+	public static String TaxDetailsInHotelCarRefund="//input[@id='txtHotelFareTaxDetails']";
+	public static String ROEInHotelCarRefundPage="//input[@id='txtTransROE']";
+	public static String FareTabInHotelCarRefund="//div[@id='tabDivHotelCarRfd']/ul[1]/li[2]/a[1]";
+	
+	public static String FareInHotelCarRefundBase="//input[@id='txtRfdBaseFareCash']";
+	public static String FareInHotelCarRefundBaseSplit="//input[@id='txtRfdBaseFareCreditSplit']";
+	public static String TaxInHotelCarRefundPageBase="//input[@id='txtRfdBaseTaxCash']";
+	public static String TaxSplitInHotelCarRefundPageBase="//input[@id='txtRfdBaseTaxCreditSplit']";
+	public static String CommissionInHotelCarRefundPageBase="//input[@id='txtCommissionBase']";
+	public static String CommissionPercentageInHotelCarRefundPageBase="//input[@id='txtCommissionBasePercentage']";
+	public static String SupplierChargeInHotelCarRefundBase="//input[@id='txtRfdHotelCarFareSupplierChargeInBaseCash']";
+	public static String SupplierChargeSplitInHotelCarRefundBase="//input[@id='txtRfdHotelCarFareSupplierChargeInBaseCreditSplit']";
+	public static String SupplierNetInHotelCarRefundPageBase="//input[@id='txtRfdHotelCarFareSupplierNetInBase']";
+	public static String AgencyChargeInHotelCarRefundPageBase="//input[@id='txtBaseClientCharge']";
+	public static String PaybackAmtInHotelCarRefundPageBase="//input[@id='txtRfdHotelCarFarePayBackInBase']";
+	public static String PaybackAmtPercentageInHotelCarRefundPageBase="//input[@id='txtRfdHotelCarFarePayBackInBasePercentage']";
+	public static String ClientNetInHotelCarRefundBase="//input[@id='txtBaseClientNet']";
+	public static String DiscountInHotelCarRefundBase="//input[@id='txtDiscountBase']";
+	public static String DiscountPercentageInHotelCarRefundBase="//input[@id='txtDiscountBasePercentage']";
+	public static String ExtraEarningInHotelCarRefundBase="//input[@id='txtRfdHotelCarFareExtraEarningInBase']";
+	public static String ExtraEarningPercentageInHotelCarRefundBase="//input[@id='txtRfdHotelCarExtraEarningInBasePercentage']";
+	public static String ServiceFeeInHotelCarRefundBase="//input[@id='txtRfdHotelCarFareServiceFeeInBase']";
+	public static String ServiceFeePercentageInHotelCarRefundBase="//input[@id='txtRfdHotelCarServiceFeeBasePercentage']";
+	public static String CCChargeInHotelCarRefundBase="//input[@id='txtCcChargeRfdBase']";
+	public static String CCChargePercentageInHotelCarRefundBase="//input[@id='txtCcChargeRfdBasePercentage']";
+	//Service Tab
+	public static String EnterServiceInServiceRefundPage="//input[@id='txtRfdOthrServicesService']";
+	public static String EnterVoucherNoInServiceRefundPage="//input[@id='txtRfdOthrServicesSupportingDocNo']";
+	public static String EnterPaxNameInServiceRefundPage="//input[@id='txtRfdOthrServicesPaxName']";
+	public static String EnterSupplierINServiceRefundPage="//input[@id='txtRfdOthrServicesSupplierName']";
+	public static String EnterRefundDateInServiceRefundPage="//input[@id='txtRfdOthrServicesRefundDate']";
+	public static String EnterStaffNameInServiceRefundPage="//input[@id='txtRfdOthrServicesAgent']";
+	public static String EnterFareInServiceRefundPage="//input[@id='txtRfdOthrServicesFareInTransCredit']";
+	public static String EnterTaxInServiceRefundPage="//input[@id='txtRfdOthrServicesTaxInTrans']";
+	public static String EnterCommissionInServiceRefundPage="//input[@id='txtRfdOthrServicesCommissionTrans']";
+	public static String EnterServiceFeeInServiceRefundPage="//input[@id='txtRfdOthrServicesServiceFeeInTrans']";
+	public static String EnterAgencyChargeInServiceRefundPage="//input[@id='txtRfdOthrAgencyChargeInTran']";
+	public static String SupplierNetInServiceRefundPage="//input[@id='txtRfdOthrSupplierNetInTran']";
+	public static String EnterPaybackAmtInServiceRefundPage="//input[@id='txtRfdOthrServicesPaybackAmountInTrans']";
+	public static String EnterPaybackAccntNameInServiceRefundPage="//input[@id='txtRfdOthrServicesPaybackAccountName']";
+	public static String ClientNetInServiceRefundPAge="//input[@id='txtRfdOthrClientNetInTran']";
+	public static String ClickClearButtonInServiceRefundPage="//a[@id='lnkClearOtherService']";
+	public static String ClickAddButtonInServiceRefundPage="//div[@id='tabOther']/a[2]";
+	public static String FormErrorInSErviceRefundPage="//div[@id='errFrmService']/h4";
+	public static String ClickEditInServiceRefundPage="//div[@id='tabOther']/a[3]";
+	
+	//AP Entries Tab
+	public static String EnterDateInAPEntriesRefundPage="//input[@id='txtApDate']";
+	public static String EnterAccountNameInAPEntriesRefundPage="//div[@id='divAPCustomer']/input[2]";
+	public static String EnterAmountInAPEntriesRefundPage="//input[@id='txtPartyAmountInTransactionCurrency']";
+	public static String ClickAddInAPEntriesRefundPage="//div[@id='tabAPEntries']/ul[1]/li[2]/div[1]/form[1]/ul[1]/a[1]";
+	public static String ClickClearInApEntriesRefundPage="//a[@id='lnkClearCashDetails']";
+	public static String FormErrorInAPEntriesRefundPage="//div[@id='errFormCashTab']/h4[1]";
+	public static String ClickEditInAPEntriesRefundPage="//div[@id='tabAPEntries']/ul[1]/li[2]/div[1]/form[1]/ul[1]/a[2]";
+	
+	//Post Page
+	public static String getCustomerName="//tbody[@id='tbodyViewPostingSummary']/tr[1]/td[5]/a";
+	public static String getSubDocNoFromSecondRow="//table[@id='tblViewPostingSummary']/tbody/tr[2]/td[2]/a";
+	public static String ClickPDFDownloadImage="//a[@id='postingDetailsReportPdf']";
+	public static String ClickCSVDownloadImage="//a[@id='postingDetailsReportCsv']";
+	public static String getTotalCreditSideAmountForMuiltipleTicket="//tbody[@id='tbodyViewPostingSummary']/tr[22]/td[11]/a";
+	//Posting Debit side Value
+	public static String getDebitSideFirstRow="//tbody[@id='tbodyViewPostingSummary']/tr[1]/td[10]/a";
+	public static String getDebitSideSecondRow="//tbody[@id='tbodyViewPostingSummary']/tr[2]/td[10]/a";
+	public static String getDebitSideThiredRow="//tbody[@id='tbodyViewPostingSummary']/tr[3]/td[10]/a";
+	public static String getDebitSideForthRow="//tbody[@id='tbodyViewPostingSummary']/tr[4]/td[10]/a";
+	public static String getDebitSideFifthRow="//tbody[@id='tbodyViewPostingSummary']/tr[5]/td[10]/a";
+	public static String getDebitSideSixthRow="//tbody[@id='tbodyViewPostingSummary']/tr[6]/td[10]/a";
+	public static String getDebitSideSeventhRow="//tbody[@id='tbodyViewPostingSummary']/tr[7]/td[10]/a";
+	public static String getDebitSideEightthRow="//tbody[@id='tbodyViewPostingSummary']/tr[8]/td[10]/a";
+	public static String getDebitSideNinethRow="//tbody[@id='tbodyViewPostingSummary']/tr[9]/td[10]/a";
+	//Posting Credit side Value
+	public static String getCreditSideFirstRow="//tbody[@id='tbodyViewPostingSummary']/tr[1]/td[11]/a";
+	public static String getCreditSideSecondRow="//tbody[@id='tbodyViewPostingSummary']/tr[2]/td[11]/a";
+	public static String getCreditSideThiredRow="//tbody[@id='tbodyViewPostingSummary']/tr[3]/td[11]/a";
+	public static String getCreditSideForthRow="//tbody[@id='tbodyViewPostingSummary']/tr[4]/td[11]/a";
+	public static String getCreditSideFifthRow="//tbody[@id='tbodyViewPostingSummary']/tr[5]/td[11]/a";
+	public static String getCreditSideSixthRow="//tbody[@id='tbodyViewPostingSummary']/tr[6]/td[11]/a";
+	public static String getCreditSideSeventhRow="//tbody[@id='tbodyViewPostingSummary']/tr[7]/td[11]/a";
+	public static String getCreditSideEightthRow="//tbody[@id='tbodyViewPostingSummary']/tr[8]/td[11]/a";
+	public static String getCredittSideNinethRow="//tbody[@id='tbodyViewPostingSummary']/tr[9]/td[11]/a";
+	public static String clickDownloadLink="//button[@id='download']";
+	
+	//Print Page Text
+	public static String getPrintPageText="//div[@id='viewer']/div[1]/div[2]/div[1]";
+
+	//Settlement
+	public static String ClickSettledTabInSettelment="//a[@href='#tabSettlement']";
+	public static String getCreditValueInSettelment="//span[@id='spnSettledTotalAmount']";
+	public static String getOutstandingValueInSettelment="//span[@id='spnSettledOutstandingAmount']";
+
+	//Delete Dialogue Box
+	public static String EnterTextInDelete="//div[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable']/div[2]/p/textarea";
+	public static String ClickDeleteInDeleteBox="//div[@class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable']/div[2]/p/input[1]";
+
+}
